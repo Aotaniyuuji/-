@@ -71,3 +71,21 @@ footer {
   height:50px;
   background-color:#AAA;
 }
+
+@media screen and (max-width:768px) {
+  main {
+    width:100%;
+    display:block;
+  }
+
+  .step {
+    width:90%;
+    margin-bottom:20px;
+    margin-left:5%;
+  }
+
+  .step:last-child {
+    margin-bottom:0;
+  }
+
+}
